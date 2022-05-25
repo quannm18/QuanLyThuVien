@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home" android:title="Home" android:icon="@drawable/ic_home"/>
+
+    </group>
+        <item android:title="@string/quanly">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/qlpm"
+                        android:title="@string/qlpm"
+                        android:icon="@drawable/ic_loan"/>
+                    <item android:id="@+id/qlls"
+                        android:title="@string/qlls"
+                        android:icon="@drawable/ic_sach"/>
+                    <item android:id="@+id/qls"
+                        android:title="@string/qls"
+                        android:icon="@drawable/ic_loaisach"/>
+                    <item android:id="@+id/qltv"
+                        android:title="@string/qltv"
+                        android:icon="@drawable/ic_people"/>
+                </group>
+            </menu>
+        </item>
+        <item android:title="@string/thongke">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/top10"
+                        android:title="@string/tktop10"
+                        android:icon="@drawable/ic_top"/>
+                    <item android:id="@+id/doanhthu"
+                        android:title="@string/doanhthu"
+                        android:icon="@drawable/ic_revenue"/>
+                </group>
+            </menu>
+        </item>
+        <item android:title="@string/nguoidung">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/addUser"
+                        android:title="@string/taotk"
+                        android:icon="@drawable/ic_add_user"/>
+                    <item android:id="@+id/changePass"
+                        android:title="@string/doimk"
+                        android:icon="@drawable/ic_change_pass"/>
+                    <item android:id="@+id/dangXuat"
+                        android:title="@string/dangxuat"
+                        android:icon="@drawable/ic_logout"/>
+                </group>
+            </menu>
+        </item>
+</menu>

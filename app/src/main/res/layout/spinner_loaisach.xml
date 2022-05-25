@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSpnLoaiSach"
+        android:text="@string/qlls"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/opensans_light"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_loaisach"
+        android:padding="16dp"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Phuong Nam Library</string>
+    <string name="quanly">Quản lý</string>
+    <string name="home">Home</string>
+    <string name="qlls">Quản lý loại sách</string>
+    <string name="qls">Quản lý sách</string>
+    <string name="qlpm">Quản lý phiếu mượn</string>
+    <string name="qltv">Quản lý thành viên</string>
+    <string name="thongke">Thống kê</string>
+    <string name="tktop10">Top 10 loại sách mượn nhiều nhất</string>
+    <string name="doanhthu">Doanh thu</string>
+    <string name="nguoidung">Người dùng</string>
+    <string name="taotk">Thêm người dùng</string>
+    <string name="doimk">Đổi mật khẩu</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string name="nav_open">Open navigation drawer</string>
+    <string name="nav_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
